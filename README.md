@@ -28,6 +28,7 @@ Every entry declares package metadata and an explicit file list:
   "name": "Example",
   "description": "Describe when the agent should use this skill.",
   "version": "1.0.0",
+  "platform": "esp32",
   "checksum": "optional package checksum",
   "files": [
     {
@@ -39,6 +40,10 @@ Every entry declares package metadata and an explicit file list:
   ]
 }
 ```
+
+`platform` is optional. When omitted, the package is portable. When present,
+it must match Mu's platform identifier, such as `esp32` or `desktop`; Mu marks
+the package incompatible on other platforms.
 
 Published file entries should include a SHA-256 checksum and byte size. Mu
 downloads every file transactionally and rejects per-file checksum failures.
