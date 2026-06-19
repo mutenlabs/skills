@@ -1,4 +1,25 @@
 {
   "version": 1,
-  "skills": []
+  "skills": [
+    {
+      "id": "device_doctor",
+      "name": "Device Doctor",
+      "description": "Diagnose Mu device issues and produce a concise troubleshooting report with likely causes and next checks.",
+      "version": "0.1.0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://mutenlabs.github.io/skills/skills/device_doctor/SKILL.md",
+          "sha256": "50a02d7107207d3ba1c0e048a0001694fcb85ff12567deb4050d65231b0e4a08",
+          "size": 2227
+        },
+        {
+          "path": "references/checklist.md",
+          "url": "https://mutenlabs.github.io/skills/skills/device_doctor/references/checklist.md",
+          "sha256": "48aa17163be23ac310446410664c9b8dde4b9fbda548808e9b23be41a18428a6",
+          "size": 1915
+        }
+      ]
+    }
+  ]
 }
